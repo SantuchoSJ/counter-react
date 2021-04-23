@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray
+}
+
+#botones {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#btn1 {
+    margin-right: 5px;
+}
+
+#btn2 {
+    margin-right: 5px
+}
+
+#btn1,
+#btn2 {
+    width: 130px;
+}
