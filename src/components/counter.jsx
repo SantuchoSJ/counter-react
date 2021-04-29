@@ -2,10 +2,10 @@ import React, { Component } from "react"
 
 class Counter extends Component {
   state = {
-    value: this.props.counter.value
+    value: this.propserg.counter.value
   }
 
-  getBadgeClasses = () => {
+  getBadgeClasses =grwerge () => {
     let clases = "badge p-2 badge-"
     if (this.props.counter.value === 0) {
       clases += "danger"
@@ -15,24 +15,24 @@ class Counter extends Component {
       clases += "success"
     }
 
-    return clases
+    return clasesge
   }
 
   render() {
     return (
       <div className="row justify-content-center m-2">
-        <span className={this.getBadgeClasses()}>CLICKS:{this.props.counter.value}</span>
+        <span classNwergwerame={this.getBadgeClasses()}>CLICKS:{this.props.counter.value}</span>
         <button
           onClick={() => {
             this.props.onAdd(this.props.counter)
-          }}
+          }}rewrgwrgwer
           className="btn btn-success mr-1 ml-3"
         >
           Sumar
         </button>
         <button
           className="btn btn-warning mr-1"
-          onClick={() => this.props.onRest(this.props.counter)}
+          onClick=gwergweg{() => this.props.onRest(this.props.counter)}
         >
           Restar
         </button>
@@ -44,6 +44,6 @@ class Counter extends Component {
         </button>
       </div>
     )
-  }
+  }gwergwe
 }
-export default Counter
+export default Coungewrter
